@@ -1,0 +1,43 @@
+.Header_outer_contianer {
+  position: sticky;
+  top: 1;
+  display: flex;
+  align-items: center;
+  background-color: rgb(20,20,20);
+  justify-content: center;
+  /* background-color: transparent; */
+  height: 10vh;
+  color: white;
+  transition: all 0.5s;
+  transition-timing-function: ease-in; 
+  z-index: 1;
+  /* background-color: red; */
+}
+li {
+  list-style-type: none;
+}
+
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+
+.header_left ul {
+  width: 140%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header_right ul {
+  width: 140%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
