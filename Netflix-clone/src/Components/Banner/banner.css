@@ -1,0 +1,65 @@
+
+.banner {
+  margin-top: -10vh;
+  height: 80vh;
+  color: white;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  margin-bottom: -80px;;
+}
+
+.banner__title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.banner__contents {
+  margin-left: 2rem;
+}
+
+.banner__button {
+  cursor: pointer;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+
+}
+
+.banner__button:hover {
+  color: #000;
+  background-color: #c6c6c6;
+  transition: all 0.2;
+}
+
+.play {
+  color: #000;
+  background-color: #fff;
+}
+.List {
+  background: rgba(39, 39, 39, 0.5);
+  color: white;
+  margin-left: 20px;
+}
+
+.banner__description {
+  font-size: 1.1rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+  max-width: 360px;
+}
+
+
+.banner__fadeBottom {
+  height: 40vh;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgb(37, 37, 37, 0.91),
+    #111
+  );
+}
