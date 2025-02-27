@@ -1,14 +1,13 @@
 .Header_outer_contianer {
   position: sticky;
-  top: 1;
+  top: 0;
   display: flex;
   align-items: center;
-  background-color: rgb(20,20,20);
+  /* background-color: rgba(20,20,20,0.5); */
   justify-content: center;
-  /* background-color: transparent; */
-  height: 10vh;
+  height: 7vh;
   color: white;
-  transition: all 0.5s;
+  transition: all 0.2s;
   transition-timing-function: ease-in; 
   z-index: 1;
   /* background-color: red; */
